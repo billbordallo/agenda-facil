@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Drawer, IconButton, List, ListItem, ListItemButton, ListItemText } from '@mui/material';
 import { Menu as MenuIcon, ChevronLeft as ChevronLeftIcon } from '@mui/icons-material';
 import '../styles/nav.css';
@@ -32,22 +32,22 @@ const Nav = ({ setContentMargin }) => {
         </div>
         <List>
           <ListItem disablePadding>
-            <ListItemButton component={Link} to="/" className="list-item-icon list-item-agendamentos">
+            <ListItemButton component={NavLink} to="/" className="list-item-icon list-item-agendamentos" activeclassname="active">
               <ListItemText primary="Agendamentos" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component={Link} to="/servicos" className="list-item-icon list-item-servicos">
+            <ListItemButton component={NavLink} to="/servicos" className="list-item-icon list-item-servicos" activeclassname="active">
               <ListItemText primary="Serviços" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component={Link} to="/busca-data" className="list-item-icon list-item-busca-data">
+            <ListItemButton component={NavLink} to="/busca-data" className="list-item-icon list-item-busca-data" activeclassname="active">
               <ListItemText primary="Busca por Data" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component={Link} to="/novo-agendamento" className="list-item-icon list-item-novo-agendamento">
+            <ListItemButton component={NavLink} to="/novo-agendamento" className="list-item-icon list-item-novo-agendamento" activeclassname="active">
               <ListItemText primary="Novo Agendamento" />
             </ListItemButton>
           </ListItem>

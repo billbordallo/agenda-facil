@@ -10,11 +10,13 @@ Não há _back-end_ neste protótipo. Portanto, o carregamento dos dados de agen
 
 ## Tecnologia
 
-O _front-end_ foi desenvolvido com Vite + React. Elementos de Material Desgin também foram utilizados em partes da aplicação.
+O _front-end_ foi desenvolvido com [Vite](https://vite.dev/) + [React](https://react.dev/). Elementos da biblioteca [Material Design 2](https://m2.material.io/) também foram utilizados em partes da aplicação.
 
 ## Layout (Figma)
 
-O layout do projeto foi criado utilizando o Figma e pode ser acessado através do link: [https://www.figma.com/design/2Rdw1P5OIMXh88OaxQCxE6/MVP-03---Fabiano-Bordallo?node-id=0-1&m=dev](https://www.figma.com/design/2Rdw1P5OIMXh88OaxQCxE6/MVP-03---Fabiano-Bordallo?node-id=0-1&m=dev)
+O layout do projeto foi criado utilizando o Figma e pode ser acessado através do link: [https://www.figma.com/design/2Rdw1P5OIMXh88OaxQCxE6/MVP-03---Fabiano-Bordallo?node-id=0-1&m=dev](https://www.figma.com/design/2Rdw1P5OIMXh88OaxQCxE6/MVP-03---Fabiano-Bordallo?node-id=0-1&m=dev).
+
+Para acessar diretamente o protótipo navegável no Figma, use o link: [https://www.figma.com/proto/2Rdw1P5OIMXh88OaxQCxE6/MVP-03---Fabiano-Bordallo?page-id=0%3A1&node-id=5-3&node-type=frame&viewport=2740%2C971%2C1.24&t=ogF7jbo9cMl1jvHn-1&scaling=contain&content-scaling=fixed](https://www.figma.com/proto/2Rdw1P5OIMXh88OaxQCxE6/MVP-03---Fabiano-Bordallo?page-id=0%3A1&node-id=5-3&node-type=frame&viewport=2740%2C971%2C1.24&t=ogF7jbo9cMl1jvHn-1&scaling=contain&content-scaling=fixed)
 
 ## Instalação da aplicação
 

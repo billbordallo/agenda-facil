@@ -53,6 +53,10 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
+
+  .active {
+    background-color: rgba(76, 119, 219, 0.15) !important;
+  }
   
   .list-item-agendamentos::before {
     background-image: url('../assets/list-box-outline.svg');

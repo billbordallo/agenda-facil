@@ -8,7 +8,7 @@
         "hora_cliente": "14:40",
         "id": 1,
         "mensagem_cliente": "",
-        "nome_cliente": "Paulo",
+        "nome_cliente": "Paulo Nogueira",
         "servico_cliente": "Barba completa",
         "status_agendamento": "Concluído"
       },
@@ -20,7 +20,7 @@
         "hora_cliente": "16:40",
         "id": 2,
         "mensagem_cliente": "",
-        "nome_cliente": "Francisco",
+        "nome_cliente": "Francisco José",
         "servico_cliente": "Barba completa",
         "status_agendamento": "Confirmado"
       },
@@ -32,20 +32,20 @@
         "hora_cliente": "17:40",
         "id": 3,
         "mensagem_cliente": "",
-        "nome_cliente": "João",
+        "nome_cliente": "João César",
         "servico_cliente": "Cabelo e barba",
         "status_agendamento": "Cancelado"
       },
       {
-        "celular_cliente": "2199998888",
+        "celular_cliente": "21 9999-8888",
         "data_cliente": "12/12/2024",
         "email_cliente": "fabiano@email.com",
         "endereco_cliente": "Rua do Presidente, 45",
         "hora_cliente": "17:00",
         "id": 4,
-        "mensagem_cliente": "Aqui vai uma mensagem",
-        "nome_cliente": "Fabiano",
-        "servico_cliente": "Corte de cabelo masculino",
+        "mensagem_cliente": "",
+        "nome_cliente": "Fabiano da Silva",
+        "servico_cliente": "Corte de cabelo",
         "status_agendamento": "Aguardando confirmação"
       },
       {
@@ -57,7 +57,43 @@
         "id": 5,
         "mensagem_cliente": "Favor tocar o interfone",
         "nome_cliente": "Paulo Oliveira",
-        "servico_cliente": "Corte de cabelo masculino",
+        "servico_cliente": "Corte de cabelo",
+        "status_agendamento": "Aguardando confirmação"
+      },
+      {
+        "celular_cliente": "21 9999-8888",
+        "data_cliente": "16/12/2024",
+        "email_cliente": "alberto@email.com",
+        "endereco_cliente": "Avenida Brasil, 200",
+        "hora_cliente": "16:00",
+        "id": 6,
+        "mensagem_cliente": "Favor tocar o interfone",
+        "nome_cliente": "Alberto José",
+        "servico_cliente": "Corte de cabelo",
+        "status_agendamento": "Aguardando confirmação"
+      },
+      {
+        "celular_cliente": "21 9999-8888",
+        "data_cliente": "16/12/2024",
+        "email_cliente": "marcos@email.com",
+        "endereco_cliente": "Rua das Camélias, 135",
+        "hora_cliente": "15:00",
+        "id": 7,
+        "mensagem_cliente": "Ligar antes de chegar",
+        "nome_cliente": "Marcos da Silva",
+        "servico_cliente": "Hidratação",
+        "status_agendamento": "Aguardando confirmação"
+      },
+      {
+        "celular_cliente": "21 9999-8888",
+        "data_cliente": "17/12/2024",
+        "email_cliente": "yuri@email.com",
+        "endereco_cliente": "Rua das Camélias, 135",
+        "hora_cliente": "15:00",
+        "id": 8,
+        "mensagem_cliente": "",
+        "nome_cliente": "Yuri Souza",
+        "servico_cliente": "Cabelo e barba",
         "status_agendamento": "Aguardando confirmação"
       }
     ]
