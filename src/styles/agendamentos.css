@@ -1,0 +1,65 @@
+.agendamentos-container {
+    width: 100%;
+    padding: 0 2%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .titulo-agendamentos {
+    margin: 25px 0 0;
+    font-size: 24px;
+    text-align: left;
+  }
+  
+  .tabela-agendamentos {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0 10%;
+    margin: 20px auto;
+  }
+  
+  .tabela-agendamentos th, .tabela-agendamentos td {
+    border-bottom: 1px solid #ddd;
+    border-right: none;
+    border-left: none;
+    color: #4A4A4A;
+  }
+  
+  .tabela-agendamentos tr:last-child td {
+    border-bottom: none;
+  }
+
+  .tabela-agendamentos tr th:first-child,
+  .tabela-agendamentos tr td:first-child {
+    padding-left: 35px;
+  }
+  
+  .tabela-agendamentos th {
+    text-align: left;
+  }
+  
+  table {
+    display: table;
+  
+  }
+  
+  table#tabela-agendamentos td {
+    text-align: left;
+  }
+  
+  .status-cell {
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  
+  .tabela-agendamentos td:last-child {
+    text-align: center !important;
+  }
+  
+  .tabela-agendamentos td:last-child:hover {
+    cursor: pointer;
+  }

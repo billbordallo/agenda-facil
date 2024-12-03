@@ -1,0 +1,71 @@
+.nav-container {
+    display: flex;
+    height: 100%;
+  }
+  
+  .menu-button {
+    position: absolute !important;
+    top: 14px;
+    left: 20px;
+    z-index: 1300;
+    background-color: #f1f1f1 !important;
+  }
+
+  .css-aixiz9-MuiButtonBase-root-MuiIconButton-root {
+    top: 14px;
+  }
+  
+  .MuiList-root {
+    margin-top: 110px !important;
+  }
+
+  .drawer-paper {
+    width: 240px;
+    height: 100%;
+  }
+  
+  .drawer-header {
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    justify-content: flex-end;
+  }
+
+  .MuiListItemButton-root {
+    padding-left: 30px !important;
+  }
+
+  .css-aixiz9-MuiButtonBase-root-MuiIconButton-root {
+    margin-right: 10px !important;
+  }
+
+  .list-item-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .list-item-icon::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .list-item-agendamentos::before {
+    background-image: url('../assets/list-box-outline.svg');
+  }
+  
+  .list-item-servicos::before {
+    background-image: url('../assets/format-list-bulleted.svg');
+  }
+  
+  .list-item-busca-data::before {
+    background-image: url('../assets/calendar-search.svg');
+  }
+
+  .list-item-novo-agendamento::before {
+    background-image: url('../assets/calendar-plus.svg');
+  }

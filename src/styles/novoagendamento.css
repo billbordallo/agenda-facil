@@ -1,0 +1,101 @@
+.novo-agendamento-container {
+    width: 100%;
+    padding: 0 2%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .titulo-novo-agendamento {
+    margin: 25px 0 0;
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .form-novo-agendamento {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas de largura igual */
+    gap: 20px; /* Espaçamento entre os itens */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    width: 100%; /* Ocupa a largura total da página */
+    padding: 20px; /* Espaçamento interno */
+  }
+  
+  .form-novo-agendamento label {
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: small;
+  }
+  
+  .form-novo-agendamento input,
+  .form-novo-agendamento textarea {
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+
+  .form-novo-agendamento textarea,
+  .form-novo-agendamento input[type="text"] {
+    width: 100%;
+  }
+
+  .form-novo-agendamento .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+    
+  .form-novo-agendamento .form-group-radio {
+    display: flex;
+    align-items: center;
+    grid-column: 1 / 3; /* Ocupa as duas colunas */
+    margin: 10px 0;
+  }
+    
+  .form-novo-agendamento .form-group-radio label {
+    margin-left: 5px;
+    font-size: small;
+  }
+    
+  .form-novo-agendamento input[type="radio"] {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  .form-novo-agendamento fieldset {
+    border: none;
+    padding-left: 0;
+  }
+  
+  .form-novo-agendamento button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: var(--color-link);
+    width: 150px;
+  }
+
+  #resumo-agendamento-modal .MuiDialog-paper {
+    color: var(--color-text);
+    width: 100%;
+    padding: 20px 40px;
+  }
+
+  #resumo-agendamento-modal .MuiDialogTitle-root {
+    text-align: center;
+  }
+  
+  #resumo-agendamento-modal .MuiDialogContent-root {
+    padding: 20px;
+  }
+  
+  #resumo-agendamento-modal .MuiDialogActions-root {
+    padding: 10px;
+    justify-content: flex-end;
+  }
+  
+  #resumo-agendamento-modal p {
+    margin: 10px 0;
+  }

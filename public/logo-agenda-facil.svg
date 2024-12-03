@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 269.41 259.42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4c77db;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #31508c;
+      }
+
+      .cls-3 {
+        fill: #c6c6c6;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #5a91ff;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-1" x="39.08" y="53.64" width="191.5" height="163.07" rx="30.09" ry="30.09"/>
+    <g>
+      <ellipse class="cls-2" cx="81.24" cy="77.41" rx="15.07" ry="14.74"/>
+      <rect class="cls-3" x="74.68" y="42.71" width="13.12" height="40.41" rx="6.56" ry="6.56"/>
+    </g>
+    <g>
+      <ellipse class="cls-2" cx="188.41" cy="77.41" rx="15.07" ry="14.74"/>
+      <rect class="cls-3" x="181.85" y="42.71" width="13.12" height="40.41" rx="6.56" ry="6.56"/>
+    </g>
+  </g>
+  <rect class="cls-4" x="60.95" y="104.92" width="147.76" height="92.35" rx="17.55" ry="17.55"/>
+  <g>
+    <circle class="cls-5" cx="81.12" cy="123.39" r="7.78"/>
+    <circle class="cls-5" cx="135.07" cy="123.39" r="7.78"/>
+    <circle class="cls-5" cx="161.8" cy="123.39" r="7.78"/>
+    <circle class="cls-5" cx="107.85" cy="123.39" r="7.78"/>
+    <circle class="cls-5" cx="188.54" cy="123.39" r="7.78"/>
+  </g>
+  <g>
+    <circle class="cls-5" cx="81.12" cy="150.61" r="7.78"/>
+    <circle class="cls-5" cx="135.07" cy="150.61" r="7.78"/>
+    <circle class="cls-5" cx="161.8" cy="150.61" r="7.78"/>
+    <circle class="cls-5" cx="107.85" cy="150.61" r="7.78"/>
+    <circle class="cls-5" cx="188.54" cy="150.61" r="7.78"/>
+  </g>
+  <g>
+    <circle class="cls-5" cx="81.12" cy="177.34" r="7.78"/>
+    <circle class="cls-5" cx="135.07" cy="177.34" r="7.78"/>
+    <circle class="cls-5" cx="161.8" cy="177.34" r="7.78"/>
+    <circle class="cls-5" cx="107.85" cy="177.34" r="7.78"/>
+    <circle class="cls-5" cx="188.54" cy="177.34" r="7.78"/>
+  </g>
+</svg>

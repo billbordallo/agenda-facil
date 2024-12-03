@@ -1,0 +1,32 @@
+{
+    "servicos": [
+      {
+        "desc_servico": "Corte de cabelo ao gosto do cliente",
+        "duracao_servico": "40 minutos",
+        "id": 1,
+        "nome_servico": "Corte de cabelo masculino",
+        "valor_servico": 50
+      },
+      {
+        "desc_servico": "Barba com relaxamento facial",
+        "duracao_servico": "30 minutos",
+        "id": 2,
+        "nome_servico": "Barba completa",
+        "valor_servico": 40
+      },
+      {
+        "desc_servico": "Corte de cabelo e barba na mesma sessão",
+        "duracao_servico": "1 hora",
+        "id": 3,
+        "nome_servico": "Cabelo e barba",
+        "valor_servico": 80
+      },
+      {
+        "desc_servico": "Hidratação com produtos de primeira linha",
+        "duracao_servico": "1 hora",
+        "id": 4,
+        "nome_servico": "Hidratação",
+        "valor_servico": 60
+      }
+    ]
+  }

@@ -1,0 +1,9 @@
+.header {
+    padding: 0;
+}
+
+.header img {
+    position: relative;
+    top: 3px;
+    margin: 0 auto;
+}

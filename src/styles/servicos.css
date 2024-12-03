@@ -1,0 +1,57 @@
+.servicos-container {
+    width: 100%;
+    padding: 0 2%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .titulo-servicos {
+    margin: 25px 0 0;
+    font-size: 24px;
+    text-align: left;
+  }
+  
+  .tabela-servicos {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0 10%;
+    margin: 20px auto;
+  }
+  
+  .tabela-servicos th, .tabela-servicos td {
+    border-bottom: 1px solid #ddd;
+    border-right: none;
+    border-left: none;
+    color: #4A4A4A;
+  }
+
+  .tabela-servicos tr th:first-child,
+  .tabela-servicos tr td:first-child {
+    padding-left: 35px;
+  }
+  
+  .tabela-servicos tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .tabela-servicos th {
+    text-align: left;
+  }
+  
+  table {
+    display: table;
+  
+  }
+  
+  table#tabela-servicos td {
+    text-align: left;
+  }
+  
+  .tabela-servicos td:last-child {
+    text-align: center !important;
+  }
+  
+  .tabela-servicos td:last-child:hover {
+    cursor: pointer;
+  }

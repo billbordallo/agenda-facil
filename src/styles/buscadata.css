@@ -1,0 +1,80 @@
+.buscadata-container {
+    width: 100%;
+    padding: 0 2%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .titulo-buscadata {
+    margin: 25px 0 0;
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .buscadata-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+  }
+  
+  .buscadata-form label {
+    margin-bottom: 5px;
+    font-weight: normal;
+  }
+  
+  .buscadata-form input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 150px;
+  }
+  
+  .tabela-agendamentos {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0 10%;
+    margin: 20px auto;
+  }
+  
+  .tabela-agendamentos th, .tabela-agendamentos td {
+    border-bottom: 1px solid #ddd;
+    border-right: none;
+    border-left: none;
+    color: #4A4A4A;
+  }
+  
+  .tabela-agendamentos tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .tabela-agendamentos th {
+    text-align: left;
+  }
+  
+  table {
+    display: table;
+  
+  }
+  
+  table#tabela-agendamentos td {
+    text-align: left;
+  }
+  
+  .status-cell {
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  
+  .tabela-agendamentos td:last-child {
+    text-align: center !important;
+  }
+  
+  .tabela-agendamentos td:last-child:hover {
+    cursor: pointer;
+  }
