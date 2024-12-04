@@ -56,7 +56,7 @@ export default function Servicos() {
                 <td>{servicos.nome_servico}</td>
                 <td>{servicos.desc_servico}</td>
                 <td>{servicos.duracao_servico}</td>
-                <td>{servicos.valor_servico}</td>
+                <td>R$ {servicos.valor_servico}</td>
                 <td>
                   <a onClick={() => handleRemoveClick(index)}>
                     <img src={trashCanIcon} alt="Remover" />

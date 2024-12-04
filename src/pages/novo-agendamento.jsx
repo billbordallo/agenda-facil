@@ -38,6 +38,7 @@ const NovoAgendamento = () => {
                 <div className="form-group">
                     <label htmlFor="nome">Nome:*</label>
                     <input
+                    placeholder="Ex.: João da Silva"
                     type="text"
                     id="nome"
                     name="nome"
@@ -49,6 +50,7 @@ const NovoAgendamento = () => {
                 <div className="form-group">
                     <label htmlFor="email">E-mail:*</label>
                     <input
+                    placeholder="Ex.: joao@email.com"
                     type="email"
                     id="email"
                     name="email"
@@ -60,6 +62,7 @@ const NovoAgendamento = () => {
                 <div className="form-group">
                     <label htmlFor="celular">Celular:*</label>
                     <input
+                    placeholder="Ex.: (99) 99999-8888"
                     type="tel"
                     id="celular"
                     name="celular"
@@ -71,6 +74,7 @@ const NovoAgendamento = () => {
                 <div className="form-group">
                     <label htmlFor="endereco">Endereço:*</label>
                     <input
+                    placeholder="Ex.: Avenida Atlântica, 123, ap 201"
                     type="text"
                     id="endereco"
                     name="endereco"
@@ -155,6 +159,7 @@ const NovoAgendamento = () => {
                 <div className="form-group" style={{ gridColumn: '1 / 3' }}>
                     <label htmlFor="observacoes">Observações (opcional):</label>
                     <textarea
+                        placeholder="Ex.: Casa dos fundos, tocar o interfone"
                         id="observacoes"
                         name="observacoes"
                         value={formData.observacoes}
