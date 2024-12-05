@@ -68,7 +68,7 @@ const BuscaData = () => {
 
   return (
     <section className="buscadata-container">
-      <h2 className="titulo-buscadata">Busca por data</h2>
+      <h2 className="titulo-buscadata">Agendamentos - Busca por data</h2>
       <form className="buscadata-form">
         <label htmlFor="date">Selecione uma data para ver os agendamentos do dia selecionado:</label>
         <input

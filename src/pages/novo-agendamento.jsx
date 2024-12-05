@@ -33,7 +33,7 @@ const NovoAgendamento = () => {
 
     return (
         <section className="novo-agendamento-container">
-            <h2 className="titulo-novo-agendamento">Inserir Novo Agendamento</h2>
+            <h2 className="titulo-novo-agendamento">Inserir novo agendamento</h2>
             <form className="form-novo-agendamento" onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label htmlFor="nome">Nome:*</label>
