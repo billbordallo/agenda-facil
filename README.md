@@ -20,9 +20,21 @@ Para acessar diretamente o protótipo navegável no Figma, use o link: [https://
 
 ## Instalação da aplicação
 
-Faça um clone ou download deste repositório. Em seguida, acesse a pasta `agenda-facil` e rode o comando abaixo no terminal:
+Faça um clone ou download deste repositório:
+
+`git clone https://github.com/billbordallo/agenda-facil.git`
+
+Em seguida, acesse a pasta `agenda-facil`...
+
+`cd agenda-facil`
+
+... e rode o comando abaixo no terminal:
 
 `npm install`
+
+**Importante**: caso o comando acima apresente erro, rode-o com a seguinte flag:
+
+`npm install --legacy-peer-deps`
 
 ## Rodando a aplicação
 
