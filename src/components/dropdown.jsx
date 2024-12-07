@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import '../styles/dropdown.css';
 
 const Dropdown = ({ options, value, onChange, isOpen, setIsOpen }) => {
@@ -25,7 +25,7 @@ const Dropdown = ({ options, value, onChange, isOpen, setIsOpen }) => {
     const handleOptionClick = (option) => {
       onChange(option);
       setIsOpen(false);
-      document.querySelector("#option-box").style.display = "none"; // Esconde o dropdown após a seleção
+      document.querySelector("#option-box").style.display = "none";
     };
   
     return (

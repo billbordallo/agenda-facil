@@ -77,6 +77,11 @@
     width: 150px;
   }
 
+  .form-novo-agendamento button:hover {
+    background-color: var(--color-link-hover);
+    border: 2px solid var(--color-link-hover);
+  }
+
   .form-novo-agendamento input::placeholder,
   .form-novo-agendamento textarea::placeholder {
     font-size: 12px;
