@@ -32,7 +32,7 @@ Em seguida, acesse a pasta `agenda-facil`...
 
 ... e rode o comando abaixo no terminal:
 
-`npm install --legacy-peer-deps`
+`npm install`
 
 ## Rodando a aplicação
 
