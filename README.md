@@ -20,7 +20,7 @@ Para acessar diretamente o protótipo navegável no Figma, use o link: [https://
 
 ## Instalação da aplicação
 
-É necessário ter o NPM instalado em seu computador ([veja aqui](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) as instruções para instalação do NPM).
+É necessário ter o [Node.js](https://nodejs.org/en) e o NPM instalados em seu computador ([veja aqui](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) as instruções para instalação do Node.js e NPM), de preferência em suas versões mais recentes.
 
 Abra um terminal e faça um clone deste repositório:
 
